@@ -27,3 +27,5 @@
 .shared-toolbar{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line);padding:16px 24px;display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:space-between}.shared-toolbar small{display:block}.shared-toolbar>p,.shared-toolbar>small{flex-basis:100%}@media print{.shared-toolbar{display:none!important}}
 
 .model-card-wrapper{position:relative;min-width:0}.model-open{width:100%;height:100%;text-align:left}.model-delete{position:absolute;right:20px;top:20px}.model-open h3{overflow-wrap:anywhere}
+
+.model-copy{position:absolute;right:58px;top:18px;padding:7px 10px;font-size:12px}
