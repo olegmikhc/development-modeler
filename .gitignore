@@ -1,0 +1,15 @@
+node_modules
+.next
+.env.local
+*.tsbuildinfo
+.sites-runtime
+.env
+.env.*
+!.env.example
+artifacts/
+test-results/
+playwright-report/
+.DS_Store
+*.log
+
+supabase/CONNECTION.md
