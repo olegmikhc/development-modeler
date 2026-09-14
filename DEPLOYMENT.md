@@ -1,3 +1,11 @@
+# GitHub Pages
+
+Публикация: `.github/workflows/pages.yml`, адрес `/development-modeler/` на домене аккаунта GitHub. Repository variables: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` (только publishable/anon key). Сборка `npm run build:pages` выполняется во временной папке и сохраняет результат в `out/`. Рабочий Next.js dev-сервер остаётся без изменений.
+
+Модели хранятся в Supabase, а не в GitHub. Ссылка просмотра: `/development-modeler/shared/?token=…`. Запросы редактирования требуют входа; одобрение и отзыв — в «Поделиться». Применить миграцию 003 к рабочей Supabase. На статическом сайте PDF создаётся через страницу отчёта → Print → Save as PDF, A4 landscape; Excel скачивается напрямую.
+
+На GitHub Free для Pages нужен публичный репозиторий. Это публикует исходники и демонстрационную модель; рабочие финансовые данные и `.env.local` исключены.
+
 # Публикация приложения
 
 GitHub хранит исходный код. Для сайта нужен Node.js/Docker-хостинг; GitHub Pages не запускает серверный PDF-экспорт этого приложения.
