@@ -45,3 +45,5 @@ Object.assign(ru,{'Project margins exclude company overhead and payroll.':'Ма�
 Object.assign(ru,{'Only this model is shared for 7 days. The viewer can browse this model’s interactive pages without editing, copying or accessing other models. The link shows the latest cloud-saved version.':'Ссылка на 7 дней открывает интерактивный сайт одной модели: обзор, проекты, графики и таблицы. Без редактирования, копирования и доступа к другим моделям. Отображается последняя облачная версия.'});
 
 Object.assign(ru,{'Save this model to cloud':'Сохранить изменения в облако','Please wait…':'Подождите…','This model is saved to cloud. You can now create a viewing link.':'Модель сохранена в облако. Теперь можно создать ссылку для просмотра.','Could not save the model. Your local changes are retained.':'Не удалось сохранить модель в облако. Локальные изменения сохранены.','Sign in with a verified email to save changes.':'Для сохранения войдите с подтверждённым email.'});
+
+Object.assign(ru,{'Section':'Раздел'});
