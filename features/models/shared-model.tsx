@@ -1,7 +1,7 @@
 'use client';
 import {useEffect,useState} from 'react';
 import {supabase} from '@/lib/supabase';
-import {Report} from '@/features/reports/report';
+import {ModelViewer} from './model-viewer';
 import {FinancialModel} from '@/types/model';
 import {modelEnvelope} from '@/lib/validation/model';
 import {tr,useLanguage} from '@/lib/i18n';
@@ -24,5 +24,5 @@ export function SharedModel({token}:{token:string}){
   }).catch(()=>{if(!cancelled)setError('This link has expired or is unavailable.')});
   return()=>{cancelled=true};
  },[token]);
- return model?<main className="shared-viewer"><div className="shared-toolbar"><div><strong>{model.name}</strong><small>{tr('View only · this financial model only')}</small></div><LanguageSwitch/></div><Report model={model}/></main>:<div className="boot" role="status">{tr(error||'Loading shared model…')}</div>;
+ return model?<ModelViewer key={token} model={model}/>:<div className="boot" role="status">{tr(error||'Loading shared model…')}</div>;
 }
