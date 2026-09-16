@@ -29,3 +29,17 @@
 .model-card-wrapper{position:relative;min-width:0}.model-open{width:100%;height:100%;text-align:left}.model-delete{position:absolute;right:20px;top:20px}.model-open h3{overflow-wrap:anywhere}
 
 .model-copy{position:absolute;right:58px;top:18px;padding:7px 10px;font-size:12px}
+
+.sales-window-legend{display:flex;flex-wrap:wrap;gap:8px 24px;padding:16px 20px;background:#edf4ef;color:#35674f;font-size:13px}.sales-window-legend span{color:#626d65}.manual-sales-table .sales-month-active{background:#edf4ef;color:#35674f}.manual-sales-table .sales-month-outside{background:#f3f3f1;color:#7b817d}.manual-sales-table .sales-month-error{background:#fff0eb;color:#b34332}.manual-sales-table .sales-month-error input{border-color:#c75542;color:#b34332}.sales-month-status{display:block;margin-top:6px;font-size:10px;letter-spacing:0;text-transform:none;font-weight:500}.sales-window-warning{margin:0;border-radius:0}
+
+.manual-sales-table .sales-boundary-start{border-left:3px solid #35674f}.manual-sales-table .sales-boundary-end{border-right:3px solid #35674f}.sales-boundary-label{display:block;width:max-content;margin:0 auto 10px;padding:5px 8px;border-radius:5px;background:#35674f;color:white;font-size:11px;letter-spacing:0;text-transform:none}
+
+.cover .cover-villa{position:absolute;right:17mm;top:31mm;width:143mm;height:151mm;object-fit:cover;object-position:54% center;border-radius:3mm}.cover .eyebrow{display:block;max-width:108mm;margin-top:30px;font-size:9px}.cover h1{max-width:108mm;font-size:36px;overflow-wrap:anywhere;line-height:1.15}.cover>p{max-width:108mm}.cover .cover-stats{max-width:105mm;display:grid;grid-template-columns:1fr 1fr;gap:18px 24px;margin-top:28px;padding-top:18px}.cover .cover-stats strong{font-size:27px}
+
+.report-page .report-sales-chart{height:350px;width:100%;margin:18px 0 8px}.report-sales-total{display:flex;align-items:center;gap:24px;padding:14px 20px;background:#f0f4ed;border-radius:8px}.report-sales-total>strong{font-size:38px;line-height:1}.report-sales-total b{font-size:16px}.report-sales-total p{margin:4px 0 0}
+
+.report-page .report-margin-note{margin-top:18px;padding-top:10px;border-top:1px solid #d9e0d7;font-size:11px;color:#60705b}
+
+.portfolio-plan{gap:24px}.portfolio-plan .form-grid{margin:20px 0}.portfolio-plan .tabs{margin:20px 0}.portfolio-plan .sales-overload{background:#fff0e7!important;color:#a14926;font-weight:600}.sales-cell-edit{border:0;background:transparent;color:#3169a1;padding:8px;cursor:pointer}.sales-cell-edit:hover{background:#edf4ef;border-radius:4px}.portfolio-plan .financial-table th:not(:first-child){min-width:100px}.portfolio-plan .card>p{margin:16px 0;line-height:1.6}
+
+.sales-milestone-note{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;padding:12px 16px;border-left:3px solid #ad7c2f;background:#faf5e9;border-radius:5px;font-size:13px;color:#805b24}.sales-milestone-note small{flex-basis:100%;color:#72796f;font-size:11px}
