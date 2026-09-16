@@ -49,3 +49,5 @@ Object.assign(ru,{'Save this model to cloud':'Сохранить изменен�
 Object.assign(ru,{'Section':'Раздел'});
 
 Object.assign(ru,{'Percentages of total revenue':'Проценты от общей выручки','of revenue':'от выручки'});
+
+Object.assign(ru,{'Show villa':'Шоу-вилла','Add show villa':'Добавить шоу-виллу','Remove show villa':'Убрать шоу-виллу','Select unit type':'Выберите тип юнита','One existing unit, built on a separate schedule. Its budget is included in total construction costs.':'Один из существующих юнитов с отдельным графиком строительства. Его бюджет включён в общие затраты на стройку.','Show villa start · model month':'Старт шоу-виллы · месяц модели','Show villa duration · months':'Срок стройки шоу-виллы · месяцев','Budget within total construction':'Бюджет в составе общей стройки','Independent start. Advanced budget is allocated by unit area.':'Старт независимый. Расширенный бюджет распределяется пропорционально площади юнита.'});

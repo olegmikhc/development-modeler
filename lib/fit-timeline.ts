@@ -22,6 +22,7 @@ export function fitTimeline(input:FinancialModel,months:number,a:Adjustments=neu
   const construction=fit(before.constructionStart,before.constructionDuration);
   t.constructionOffset=construction.start-(t.constructionAfterPbg?permitEnd+1:p.start);
   t.constructionDuration=Math.max(1,construction.duration-a.constructionDuration);
+  if(p.construction.showVilla){const v=p.construction.showVilla;p.construction.showVilla={...v,...fit(v.start,v.duration)};}
   const sales=fit(before.salesStart,before.salesDuration),speed=1+a.speed/100;
   t.salesOffset=sales.start-(t.salesAfterPbg?permitEnd+1:p.start);
   t.salesDuration=Math.max(1,Math.round(sales.duration*speed));
