@@ -42,7 +42,7 @@
 
 .portfolio-plan{gap:24px}.portfolio-plan .form-grid{margin:20px 0}.portfolio-plan .tabs{margin:20px 0}.portfolio-plan .sales-overload{background:#fff0e7!important;color:#a14926;font-weight:600}.sales-cell-edit{border:0;background:transparent;color:#3169a1;padding:8px;cursor:pointer}.sales-cell-edit:hover{background:#edf4ef;border-radius:4px}.portfolio-plan .financial-table th:not(:first-child){min-width:100px}.portfolio-plan .card>p{margin:16px 0;line-height:1.6}
 
-.sales-milestone-note{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;padding:12px 16px;border-left:3px solid #ad7c2f;background:#faf5e9;border-radius:5px;font-size:13px;color:#805b24}.sales-milestone-note small{flex-basis:100%;color:#72796f;font-size:11px}
+.sales-milestone-note{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;padding:12px 16px;border-left:3px solid #2d7057;background:#edf5ef;border-radius:5px;font-size:13px;color:#2d7057}.sales-milestone-note small{flex-basis:100%;color:#72796f;font-size:11px}
 
 .model-viewer .brand{padding:24px 18px}.model-viewer .brand small{white-space:normal;letter-spacing:0;font-size:11px;margin-top:10px}.model-viewer .content>h1{margin-bottom:24px}.model-viewer .card h3{margin:24px 0 12px}.viewer-gantt-row{display:grid;grid-template-columns:190px 1fr;gap:10px;align-items:center;min-height:40px}.viewer-gantt-months{display:grid;text-align:center}.viewer-gantt-track{position:relative;height:30px;background:#f3f5f0}.viewer-gantt-track>span{position:absolute;top:2px;height:26px;border-radius:4px;color:white;text-align:center;font-size:12px;line-height:26px;overflow:hidden}.model-viewer .topbar{gap:16px;flex-wrap:wrap}.model-viewer .model-bar h2{overflow-wrap:anywhere}
 
